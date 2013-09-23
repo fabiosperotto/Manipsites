@@ -39,4 +39,8 @@ A small tool that extends the [PHP Simple HTML DOM Parser](http://simplehtmldom.
     
     $line = $manipulator->getRow($numberLine); //retorna uma linha especifica do site
     
+    //para utilizar a classe atras de um proxy, basta setar o endereco e porta:
+    $manipulator->setProxyAddress('addressproxy');
+    $manipulator->setProxyPort('port'); //3128 por exemplo
+    
 
