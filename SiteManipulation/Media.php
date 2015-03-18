@@ -77,8 +77,8 @@ class Media{
 
 
     /**
-     * Alternative to the previous function, this method can be used to
-     * download documents of various formats
+     * This method can be used to download documents of various formats,
+     * is more robust than the downloadFileURL method
      * @param $url address of a remote file without extension
      * @param $localPath absolute path to download directory
      * @param null $fileName custom name for the file (optional)
